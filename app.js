@@ -29,9 +29,11 @@ function get_hello(request,response){
 //     response.json({"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImVtYWlsIjoibmlja0BibG9jazE1LmNvbSIsImFkbWluIjowLCJpYXQiOjE2MjE5MDQwNzAsImV4cCI6MTYyMTk5MDQ3MH0.GDq1GkqsSP6FCachVTLyUanFdUirNR4W5oXuXIhoyfM","name":name})
 // }
 
+
+//token and expirationdate
 function get_auth(request, response) {
-    response.setHeader('Access-Control-Allow-Origin', '*');
-    var name = request.body.user
-    
-    response.json({"Tocken":"lashdfldnfknfojasdifjaisdnfinwienfiadsfiandf","name":name})
+    response.json({
+        "access-token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+        "expires":"2022-02-14T23:59:59.999-08:00"
+    })
 }
