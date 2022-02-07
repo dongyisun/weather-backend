@@ -24,7 +24,7 @@ function get_weather(req,res) {
     }
 }
 
-
+//add token for two endpoints
 function get_hello(req, res) {
     if (req.token == "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c") {
         response.json("Have a nice day!")
