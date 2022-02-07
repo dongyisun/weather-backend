@@ -2,7 +2,7 @@ openapi: 3.0.1
 info:
   description: "Swagger Doc for three endpoints"
   version: "1.0.0"
-  title: "Swagger Doc - Karl Adriano"
+  title: "Swagger Doc - Dongyi Sun"
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "sundo@oregonstate.edu"
@@ -116,7 +116,7 @@ paths:
           content:
             application/json:
               example:
-                "greeting": "Karl says Hello" 
+                "greeting": "Have a good day" 
         "400":
           description: "Access token is missing or invalid"
 
