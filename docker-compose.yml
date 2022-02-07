@@ -1,0 +1,17 @@
+services:
+  server:
+    image: "swiftlang/swift:nightly-focal"
+    ports:
+      - "3000:3000"
+    volumes:
+      - C:\Users\tmfrn\test:/code
+    environment:
+      - USER= tmfrn
+
+    
+  client:
+    image: "rust:1.58"
+    volumes:
+    - C:\Users\tmfrn\test:/code
+    environment:
+    - USER= tmfrn
