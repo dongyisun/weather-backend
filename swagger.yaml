@@ -3,6 +3,7 @@ info:
   description: "Swagger Doc for three endpoints"
   version: "1.0.0"
   title: "Swagger Doc - Dongyi Sun"
+
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "sundo@oregonstate.edu"
@@ -135,4 +136,5 @@ components:
     bearerAuth:
       type: "http"
       scheme: "bearer"
+
       bearerFormat: "JWT"
