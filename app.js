@@ -48,7 +48,7 @@ app.use(function (req, res, next) {
 app.get('data/2.5/weather', get_weather)
 app.get('/v1/weather', get_weather)
 app.get('/v1/hello',get_hello)
-app.post('/v1/auth', get_auth)
+app.post('/v1/auth', post_auth)
 
 
 // adding token for two endpoints
