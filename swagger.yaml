@@ -13,7 +13,7 @@ info:
   # license:
   #   name: "license"
   #   url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "localhost:3000"
+host: " 18.209.62.136:3200"
 basePath: "/v1"
 tags:
 - name: "Dongyi Sun"
